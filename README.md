@@ -14,10 +14,10 @@ This repository contains the codebase for the RoboWrestling robot. The primary o
 
 - **Robot Control:** Uses motor drivers to control the movement of the robot (forward, backward, turns).
 - **Sensor Integration:** IR and line sensors are used for obstacle detection, tracking, and edge detection.
-- **AI/Strategy:** Implements different strategies like `StayOn` to maintain positioning, and `Attack` for offensive maneuvers.
+- **Strategy:** Implements different strategies like `StayOn` to maintain positioning, and `Attack` for offensive maneuvers.
 - **Simulation:** The robot's movement and behavior are designed with real-world application in mind, utilizing sensor data for decisions.
 
-## Key Components
+## Key Classes
 
 - **RobotAction:** Controls robot movement (e.g., forward, reverse, spin, turn).
 - **WorldState:** Represents the robot's environment, including sensor data from line sensors and IR sensors.
